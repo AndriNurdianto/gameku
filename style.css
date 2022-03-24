@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase; 
+}
+.nav-link:hover{
+    color: black;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 7.5px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-transform: uppercase; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 139px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    transition: 0.5s;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 185px;
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content3 a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content3 {display: block;}
+
+  .dropdown:hover .dropbtn {
+    background-color: white;
+    transition: 0.5s;
+}
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 10px;
+    max-width: 120px;
+    z-index: 1;
+  }
+  
+  .dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  
+  .dropdown2:hover .dropbtn {
+      background-color: white;
+      transition: 0.5s;
+  }
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid #0000f9;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #0000f9;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./Foto/banner.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: 0;
+    background-color: #0000f9;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgba(4, 62, 170, 0.678);
+    transition: 0.5s;
+}
+.kosong{
+    height: 150px;
+    width: 150px;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.news {
+    color: white;
+    margin-top: 25px;
+    background-color: #0000f9;
+    font-weight: 700;
+}
